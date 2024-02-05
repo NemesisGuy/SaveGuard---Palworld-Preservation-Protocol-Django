@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(dotenv_path="saveguard_config.env")
 
 # Paths
 save_data_path = os.getenv("SAVE_DATA_PATH")
