@@ -1,0 +1,27 @@
+<!-- saveguard_app/templates/settings.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Settings - SaveGuard{% endblock %}
+
+{% block content %}
+    <section>
+        <h2>Backup Settings</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Save Settings</button>
+            
+        </form>
+        <!-- Display current settings -->
+        <h3>Current Settings</h3>
+        <p>Save Data Path: {{ current_settings.SAVE_DATA_PATH }}</p>
+        <p>Backup Path: {{ current_settings.BACKUP_PATH }}</p>
+        <!-- Add the Backup Now button here -->
+        <form action="{% url 'backup_now' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Backup Now</button>
+        </form>
+    </section>
+{% endblock %}
+

@@ -1,0 +1,7 @@
+2024-02-05 20:49:43,865 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType
+2024-02-05 20:50:37,710 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType
+2024-02-05 20:52:37,374 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType
+2024-02-05 20:53:49,198 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType
+2024-02-05 20:54:32,118 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType
+2024-02-05 20:54:51,023 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType
+2024-02-05 20:57:07,665 - ERROR - Error backing up save data: expected str, bytes or os.PathLike object, not NoneType

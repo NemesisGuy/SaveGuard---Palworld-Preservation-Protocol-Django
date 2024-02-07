@@ -1,0 +1,26 @@
+<!-- saveguard_app/templates/backup_status.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Backup Status - SaveGuard{% endblock %}
+
+{% block content %}
+    <section>
+        <h2>Backup Status</h2>
+        <p>This page displays the status of your backups.</p>
+        {% if error_message %}
+            <p>{{ error_message }}</p>
+        {% else %}
+            {% if backup_folders %}
+                <h3>Backup Folders:</h3>
+                <ol>
+                    {% for folder in backup_folders %}
+                        <li>{{ folder }}</li>
+                    {% endfor %}
+                </ol>
+            {% else %}
+                <p>No backup folders found.</p>
+            {% endif %}
+        {% endif %}
+    </section>
+{% endblock %}
