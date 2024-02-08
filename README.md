@@ -83,8 +83,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Screenshots
 
-![Screenshot - Home](screenshots/image-home.png)
+![Screenshot - Home](Screenshots\image-home.png)
 
 ![Screenshot - Backup Settings](screenshots/image-backup-settings.png)  
 
-![Screenshot - Backups Status](screenshots/image-backups-status.png) 
+![Screenshot - Backups Status](screenshots/image-backup-status.png) 
