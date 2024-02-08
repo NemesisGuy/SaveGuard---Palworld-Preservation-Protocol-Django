@@ -80,3 +80,11 @@ Contributions are welcome! If you'd like to contribute to the SaveGuard project,
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Screenshots
+
+![Screenshot - Home](screenshots/image-home.png)
+
+![Screenshot - Backup Settings](screenshots/image-backup-settings.png)  
+
+![Screenshot - Backups Status](screenshots/image-backups-status.png) 
